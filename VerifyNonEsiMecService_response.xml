@@ -1,0 +1,228 @@
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope">
+   <soap:Body>
+      <vnem:VerifyNonESIMECResponse xmlns:vnem="http://vnem.ee.sim.dsh.cms.hhs.gov">
+         <vnem:IndividualResponseSet>
+            <vnem:IndividualResponse>
+               <vnem:Applicant>
+                  <vnem:PersonSSNIdentification>104943105</vnem:PersonSSNIdentification>
+                  <vnem:PersonName>
+                     <vnem:PersonGivenName>Joe</vnem:PersonGivenName>
+                     <vnem:PersonSurName>Wharftop</vnem:PersonSurName>
+                  </vnem:PersonName>
+                  <nc:PersonBirthDate xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                     <nc:Date>1993-03-27</nc:Date>
+                  </nc:PersonBirthDate>
+                  <nc:PersonSexCode xmlns:nc="http://niem.gov/niem/niem-core/2.0">M</nc:PersonSexCode>
+               </vnem:Applicant>
+               <vnem:PartialResponseIndicator>false</vnem:PartialResponseIndicator>
+               <vnem:OtherCoverage>
+                  <vnem:OrganizationCode>MEDI</vnem:OrganizationCode>
+                  <vnem:ResponseMetadata>
+                     <vnem:ResponseCode>HE040003</vnem:ResponseCode>
+                     <vnem:ResponseDescriptionText>No eligibility information found based on date range</vnem:ResponseDescriptionText>
+                  </vnem:ResponseMetadata>
+                  <vnem:MECCoverage>
+                     <vnem:MECVerificationCode>N</vnem:MECVerificationCode>
+                  </vnem:MECCoverage>
+               </vnem:OtherCoverage>
+               <vnem:OtherCoverage>
+                  <vnem:OrganizationCode>VHPC</vnem:OrganizationCode>
+                  <vnem:ResponseMetadata>
+                     <vnem:ResponseCode>HE000001</vnem:ResponseCode>
+                     <vnem:ResponseDescriptionText>Applicant Not Found</vnem:ResponseDescriptionText>
+                     <vnem:TDSResponseDescriptionText>APPLICANT_NOT_FOUND = (SUCCESSFUL)</vnem:TDSResponseDescriptionText>
+                  </vnem:ResponseMetadata>
+                  <vnem:MECCoverage>
+                     <vnem:MECVerificationCode>N</vnem:MECVerificationCode>
+                  </vnem:MECCoverage>
+               </vnem:OtherCoverage>
+               <vnem:OtherCoverage>
+                  <vnem:OrganizationCode>TRIC</vnem:OrganizationCode>
+                  <vnem:ResponseMetadata>
+                     <vnem:ResponseCode>HE000001</vnem:ResponseCode>
+                     <vnem:ResponseDescriptionText>Applicant Not Found</vnem:ResponseDescriptionText>
+                  </vnem:ResponseMetadata>
+                  <vnem:MECCoverage>
+                     <vnem:MECVerificationCode>N</vnem:MECVerificationCode>
+                  </vnem:MECCoverage>
+               </vnem:OtherCoverage>
+               <vnem:OtherCoverage>
+                  <vnem:OrganizationCode>PECO</vnem:OrganizationCode>
+                  <vnem:ResponseMetadata>
+                     <vnem:ResponseCode>HE000001</vnem:ResponseCode>
+                     <vnem:ResponseDescriptionText>Applicant Not Found</vnem:ResponseDescriptionText>
+                  </vnem:ResponseMetadata>
+                  <vnem:MECCoverage>
+                     <vnem:MECVerificationCode>N</vnem:MECVerificationCode>
+                  </vnem:MECCoverage>
+               </vnem:OtherCoverage>
+            </vnem:IndividualResponse>
+            <vnem:IndividualResponse>
+               <vnem:Applicant>
+                  <vnem:PersonSSNIdentification>036033109</vnem:PersonSSNIdentification>
+                  <vnem:PersonName>
+                     <vnem:PersonGivenName>Barbie</vnem:PersonGivenName>
+                     <vnem:PersonSurName>Brown</vnem:PersonSurName>
+                  </vnem:PersonName>
+                  <nc:PersonBirthDate xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                     <nc:Date>1950-05-14</nc:Date>
+                  </nc:PersonBirthDate>
+                  <nc:PersonSexCode xmlns:nc="http://niem.gov/niem/niem-core/2.0">F</nc:PersonSexCode>
+               </vnem:Applicant>
+               <vnem:PartialResponseIndicator>false</vnem:PartialResponseIndicator>
+               <vnem:OtherCoverage>
+                  <vnem:OrganizationCode>MEDI</vnem:OrganizationCode>
+                  <vnem:ResponseMetadata>
+                     <vnem:ResponseCode>HE040003</vnem:ResponseCode>
+                     <vnem:ResponseDescriptionText>No eligibility information found based on date range</vnem:ResponseDescriptionText>
+                  </vnem:ResponseMetadata>
+                  <vnem:MECCoverage>
+                     <vnem:MECVerificationCode>N</vnem:MECVerificationCode>
+                  </vnem:MECCoverage>
+               </vnem:OtherCoverage>
+               <vnem:OtherCoverage>
+                  <vnem:OrganizationCode>VHPC</vnem:OrganizationCode>
+                  <vnem:ResponseMetadata>
+                     <vnem:ResponseCode>HE000001</vnem:ResponseCode>
+                     <vnem:ResponseDescriptionText>Applicant Not Found</vnem:ResponseDescriptionText>
+                     <vnem:TDSResponseDescriptionText>APPLICANT_NOT_FOUND = (SUCCESSFUL)</vnem:TDSResponseDescriptionText>
+                  </vnem:ResponseMetadata>
+                  <vnem:MECCoverage>
+                     <vnem:MECVerificationCode>N</vnem:MECVerificationCode>
+                  </vnem:MECCoverage>
+               </vnem:OtherCoverage>
+               <vnem:OtherCoverage>
+                  <vnem:OrganizationCode>TRIC</vnem:OrganizationCode>
+                  <vnem:ResponseMetadata>
+                     <vnem:ResponseCode>HE000001</vnem:ResponseCode>
+                     <vnem:ResponseDescriptionText>Applicant Not Found</vnem:ResponseDescriptionText>
+                  </vnem:ResponseMetadata>
+                  <vnem:MECCoverage>
+                     <vnem:MECVerificationCode>N</vnem:MECVerificationCode>
+                  </vnem:MECCoverage>
+               </vnem:OtherCoverage>
+               <vnem:OtherCoverage>
+                  <vnem:OrganizationCode>PECO</vnem:OrganizationCode>
+                  <vnem:ResponseMetadata>
+                     <vnem:ResponseCode>HE000001</vnem:ResponseCode>
+                     <vnem:ResponseDescriptionText>Applicant Not Found</vnem:ResponseDescriptionText>
+                  </vnem:ResponseMetadata>
+                  <vnem:MECCoverage>
+                     <vnem:MECVerificationCode>N</vnem:MECVerificationCode>
+                  </vnem:MECCoverage>
+               </vnem:OtherCoverage>
+            </vnem:IndividualResponse>
+            <vnem:IndividualResponse>
+               <vnem:Applicant>
+                  <vnem:PersonSSNIdentification>013570201</vnem:PersonSSNIdentification>
+                  <vnem:PersonName>
+                     <vnem:PersonGivenName>Russian</vnem:PersonGivenName>
+                     <vnem:PersonSurName>json</vnem:PersonSurName>
+                  </vnem:PersonName>
+                  <nc:PersonBirthDate xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                     <nc:Date>2012-06-21</nc:Date>
+                  </nc:PersonBirthDate>
+                  <nc:PersonSexCode xmlns:nc="http://niem.gov/niem/niem-core/2.0">F</nc:PersonSexCode>
+               </vnem:Applicant>
+               <vnem:PartialResponseIndicator>false</vnem:PartialResponseIndicator>
+               <vnem:OtherCoverage>
+                  <vnem:OrganizationCode>MEDI</vnem:OrganizationCode>
+                  <vnem:ResponseMetadata>
+                     <vnem:ResponseCode>HE040003</vnem:ResponseCode>
+                     <vnem:ResponseDescriptionText>No eligibility information found based on date range</vnem:ResponseDescriptionText>
+                  </vnem:ResponseMetadata>
+                  <vnem:MECCoverage>
+                     <vnem:MECVerificationCode>N</vnem:MECVerificationCode>
+                  </vnem:MECCoverage>
+               </vnem:OtherCoverage>
+               <vnem:OtherCoverage>
+                  <vnem:OrganizationCode>VHPC</vnem:OrganizationCode>
+                  <vnem:ResponseMetadata>
+                     <vnem:ResponseCode>HE000001</vnem:ResponseCode>
+                     <vnem:ResponseDescriptionText>Applicant Not Found</vnem:ResponseDescriptionText>
+                     <vnem:TDSResponseDescriptionText>APPLICANT_NOT_FOUND = (SUCCESSFUL)</vnem:TDSResponseDescriptionText>
+                  </vnem:ResponseMetadata>
+                  <vnem:MECCoverage>
+                     <vnem:MECVerificationCode>N</vnem:MECVerificationCode>
+                  </vnem:MECCoverage>
+               </vnem:OtherCoverage>
+               <vnem:OtherCoverage>
+                  <vnem:OrganizationCode>TRIC</vnem:OrganizationCode>
+                  <vnem:ResponseMetadata>
+                     <vnem:ResponseCode>HE000001</vnem:ResponseCode>
+                     <vnem:ResponseDescriptionText>Applicant Not Found</vnem:ResponseDescriptionText>
+                  </vnem:ResponseMetadata>
+                  <vnem:MECCoverage>
+                     <vnem:MECVerificationCode>N</vnem:MECVerificationCode>
+                  </vnem:MECCoverage>
+               </vnem:OtherCoverage>
+               <vnem:OtherCoverage>
+                  <vnem:OrganizationCode>PECO</vnem:OrganizationCode>
+                  <vnem:ResponseMetadata>
+                     <vnem:ResponseCode>HE000001</vnem:ResponseCode>
+                     <vnem:ResponseDescriptionText>Applicant Not Found</vnem:ResponseDescriptionText>
+                  </vnem:ResponseMetadata>
+                  <vnem:MECCoverage>
+                     <vnem:MECVerificationCode>N</vnem:MECVerificationCode>
+                  </vnem:MECCoverage>
+               </vnem:OtherCoverage>
+            </vnem:IndividualResponse>
+            <vnem:IndividualResponse>
+               <vnem:Applicant>
+                  <vnem:PersonSSNIdentification>028053700</vnem:PersonSSNIdentification>
+                  <vnem:PersonName>
+                     <vnem:PersonGivenName>William</vnem:PersonGivenName>
+                     <vnem:PersonSurName>Julbrot</vnem:PersonSurName>
+                  </vnem:PersonName>
+                  <nc:PersonBirthDate xmlns:nc="http://niem.gov/niem/niem-core/2.0">
+                     <nc:Date>1994-10-19</nc:Date>
+                  </nc:PersonBirthDate>
+                  <nc:PersonSexCode xmlns:nc="http://niem.gov/niem/niem-core/2.0">F</nc:PersonSexCode>
+               </vnem:Applicant>
+               <vnem:PartialResponseIndicator>false</vnem:PartialResponseIndicator>
+               <vnem:OtherCoverage>
+                  <vnem:OrganizationCode>MEDI</vnem:OrganizationCode>
+                  <vnem:ResponseMetadata>
+                     <vnem:ResponseCode>HE040003</vnem:ResponseCode>
+                     <vnem:ResponseDescriptionText>No eligibility information found based on date range</vnem:ResponseDescriptionText>
+                  </vnem:ResponseMetadata>
+                  <vnem:MECCoverage>
+                     <vnem:MECVerificationCode>N</vnem:MECVerificationCode>
+                  </vnem:MECCoverage>
+               </vnem:OtherCoverage>
+               <vnem:OtherCoverage>
+                  <vnem:OrganizationCode>VHPC</vnem:OrganizationCode>
+                  <vnem:ResponseMetadata>
+                     <vnem:ResponseCode>HE000001</vnem:ResponseCode>
+                     <vnem:ResponseDescriptionText>Applicant Not Found</vnem:ResponseDescriptionText>
+                     <vnem:TDSResponseDescriptionText>APPLICANT_NOT_FOUND = (SUCCESSFUL)</vnem:TDSResponseDescriptionText>
+                  </vnem:ResponseMetadata>
+                  <vnem:MECCoverage>
+                     <vnem:MECVerificationCode>N</vnem:MECVerificationCode>
+                  </vnem:MECCoverage>
+               </vnem:OtherCoverage>
+               <vnem:OtherCoverage>
+                  <vnem:OrganizationCode>TRIC</vnem:OrganizationCode>
+                  <vnem:ResponseMetadata>
+                     <vnem:ResponseCode>HE000001</vnem:ResponseCode>
+                     <vnem:ResponseDescriptionText>Applicant Not Found</vnem:ResponseDescriptionText>
+                  </vnem:ResponseMetadata>
+                  <vnem:MECCoverage>
+                     <vnem:MECVerificationCode>N</vnem:MECVerificationCode>
+                  </vnem:MECCoverage>
+               </vnem:OtherCoverage>
+               <vnem:OtherCoverage>
+                  <vnem:OrganizationCode>PECO</vnem:OrganizationCode>
+                  <vnem:ResponseMetadata>
+                     <vnem:ResponseCode>HE000001</vnem:ResponseCode>
+                     <vnem:ResponseDescriptionText>Applicant Not Found</vnem:ResponseDescriptionText>
+                  </vnem:ResponseMetadata>
+                  <vnem:MECCoverage>
+                     <vnem:MECVerificationCode>N</vnem:MECVerificationCode>
+                  </vnem:MECCoverage>
+               </vnem:OtherCoverage>
+            </vnem:IndividualResponse>
+         </vnem:IndividualResponseSet>
+      </vnem:VerifyNonESIMECResponse>
+   </soap:Body>
+</soap:Envelope>
