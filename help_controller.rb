@@ -28,10 +28,23 @@ class HelpController < ApplicationController
       no_intra_emphasis: true,
       tables: true,
       fenced_code_blocks: true,
-      disable_indented_code_blocks: true,
+#comment      
+disable_indented_code_blocks: true,
       highlight: true,
       quote: true
     )
   end
 
+  def set_markdown
+    # TODO: Use a *new* attr called renderer to allow for different types:
+    #         HTML would be the default
+    @markdown = Redcarpet::Markdown.new(Redcarpet::Render::HTML,
+      no_intra_emphasis: true,
+      tables: true,
+      fenced_code_blocks: true,
+      disable_indented_code_blocks: true,
+      highlight: true,
+      quote: true
+    )
+  end
 end
